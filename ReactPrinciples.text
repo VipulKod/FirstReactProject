@@ -1,0 +1,32 @@
+>Imperative:
+  Before the front end frameworks we manually used to manipulate DOM elements individually in response to user events
+  this type of programming is called imperative.
+
+Declarative:
+  React came up with a novel concept. Since the DOM manipulations are one of the biggest performance bottlenecks. It takes
+  a long time for DOM changes to happen the browser has 2 things to work with that is re-render the page to reflect changes
+  and then to recalculate the layout and move things around if changed.
+
+  What react does is takes care of all the changes that you need to perform in the best way possible and we just needs to
+  declare what your app looks like.
+
+  This approach leads to:
+    lesser code complexity.
+    Better code quality.
+    Faster development time.
+
+    Now theres a way to create web applications without touching the DOM. From this react got its name
+    based on the state or data that describes our app its just going to react to it and change everything for u!
+
+
+React Concepts
+> Don't touch the DOM. I'll do it.
+> Build webapps like lego blocks using components
+> Unidirectional data flow.
+
+
+The JOB of a React Developer
+
+1> Decide on Components.
+2> Decide the State and where it lives.
+3> What changes when state changes
